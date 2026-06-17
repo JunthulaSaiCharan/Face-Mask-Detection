@@ -33,7 +33,7 @@ face_no_mask
 
 Example Dataset Structure:
 
-Medical Mask/
+Medical Mask 
 │
 ├── images/
 │   ├── image1.jpg
