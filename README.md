@@ -20,6 +20,7 @@ Image preprocessing and augmentation
 Training and evaluation pipeline
 Prediction on unseen test images
 Submission file generation for Kaggle competitions
+
 **Dataset**
 
 Dataset contains:
@@ -43,6 +44,8 @@ Medical Mask/
 │
 ├── train.csv
 └── submission.csv
+
+
  **Technologies Used**
  1.Technology	Purpose
  2.Python	Programming Language
@@ -66,6 +69,8 @@ pip install tensorflow
 pip install opencv-python
 pip install mtcnn
 pip install numpy pandas matplotlib tqdm
+
+
 **Model Architecture**
 
 The CNN architecture consists of:
@@ -119,6 +124,8 @@ faces = detector.detect_faces(image)
 Each detected face is cropped and passed to the CNN classifier.
 
 **Results**
+
+
 The model can:
 
 Detect faces from images
@@ -144,6 +151,8 @@ face-mask-detection/
 │
 ├── README.md
 └── requirements.txt
+
+
  **Future Improvements**
 Improve model accuracy using Transfer Learning
 Use MobileNetV2 or EfficientNet
